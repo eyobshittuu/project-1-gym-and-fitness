@@ -7,12 +7,33 @@
 </head>
 
 <body>
-    <form action="eyy.jpg">
-        <strong>first name</strong>
-        <input type="text" name="name">
+    <form action="eyy.jpg" width="300" height="400">
+        <legend><h1>welcome to cs fitness</h1></legend>
+        <fieldset width="30" height="40">
         <p>
-            blabal
-        </p>
+        <strong>first name</strong><br>
+        <input type="text" name="first name">
+    </p>
+    <p></p>
+        <strong>last name</strong><br>
+        <input type="text" name="last name">
+    </p>
+    <p>
+        <strong>sex</strong><br>
+        <input list="sex">
+        <datalist id="sex">
+        <option value="male" ></option>
+        <option value="female"></option>
+        <option value="not specified"></option>
+    </p>
+    <p>
+        <input type="radio" name="age" value="15-24">
+        <input type="radio" name="age" value="25-48">
+        <input type="radio" name="age" value="49-64">
+    </p>
+    <input type="submit" value="submit">
+    <input type="reset" value="clear">
+</fieldset>
     </form>
 </body>
 
