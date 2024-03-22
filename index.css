@@ -19,7 +19,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) ;
-    background: #ffffff7f;
+    background: #ffffff21;
     padding: 50px 60px 70px;
     text-align: center;
 
@@ -27,7 +27,7 @@
 .formbox h1{
     font-size: 30px;
     margin-bottom: 60px;
-    color:#05084f ;
+    color:#11e835 ;
     position: relative;
 
 }
@@ -42,4 +42,31 @@
     left: 50%;
     transform: translateX(-50% );
 
+}
+.input-ee{
+    background:rgba(255, 255, 255, 0.534);
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+
+}
+input{
+    width:  100%;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    padding: 15px 12px;
+}
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 48%;
+    background: #11e835;
+    box-shadow: 0 15;
+    border: 0;
+    cursor: pointer;
+    transition:background 1s ;
+    color: burlywood;
 }
