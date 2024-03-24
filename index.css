@@ -15,12 +15,12 @@
 .formbox{
     width: 400%;
     max-width: 350px;
-    position: absolute;
+    position: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) ;
     background: #ffffff21;
-    padding: 30px 30px 30px;
+    padding: 50px 60px 70px;
     text-align: center;
 
 }
@@ -37,7 +37,7 @@
     height: 4px;
     border-radius: 3px;
     background: #3c3c3c;
-    position: absolute;
+    position: center;
     bottom: -12px;
     left: 50%;
     transform: translateX(-50% );
@@ -45,8 +45,8 @@
 }
 .input-ee{
     background:rgba(255, 255, 255, 0.534);
-    margin: 15px 0;
-    border-radius: 3px;
+    margin: 10px 0;
+    border-radius: 10px;
     display: flex;
     align-items: center;
 
@@ -54,20 +54,8 @@
 input{
     width:  100%;
     background: transparent;
-    outline: 0;
-    border: 0;
+    outline: 100;
+    border: 100;
     padding: 15px 12px;
-}
-.btn-field{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-basis: 48%;
-    background: #11e835;
-    box-shadow: 0 15;
-    border: 0;
-    cursor: pointer;
-    transition:background 1s ;
-    color: burlywood;
 }
 
