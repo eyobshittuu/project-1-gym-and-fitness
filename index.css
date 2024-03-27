@@ -92,3 +92,17 @@ input{
     border: 0;
     font-size: 16px;
 }
+
+.eyu{
+    display:flex;
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items:center ;
+    background-image: -o-repeating-linear-gradient() url(OIP.jpg);
+
+}
