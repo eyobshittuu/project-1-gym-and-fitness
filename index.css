@@ -5,12 +5,34 @@
     box-sizing: border-box;
 }
 .eyob{
-    width:100% ;
-    height:100vh ;
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(eyy.jpg) ;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,50,0.8) ,rgba(0,0,50,0.8),url(es.mp4));
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow: hidden;
+
+}
+.rr{
+    position:inherit;
+
+    bottom: 0;
+    left:0;
+    right: 0;
+    max-width: 100;
+    min-width: 100;
+    max-height: 100;
+    min-height: 100;
+
+}
+@media (min-aspect-ratio:16/9){
+    .rr{height: auto;width: 100%;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .rr{height:100%;width:auto;
+    }
 }
 .formbox{
     width: 90%;
@@ -27,8 +49,8 @@
 .formbox h1{
     font-size: 30px;
     margin-bottom: 60px;
-    color:#11e835 ;
-    position: center;
+    color:#a8e811 ;
+    position:relative;
 
 }
 .formbox h1::after{
