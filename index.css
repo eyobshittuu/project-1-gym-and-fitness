@@ -80,15 +80,5 @@ input{
     border: 0;
     padding: 18px 15px;
 }
-.sss{
-    background-color: #11e835;
-    border-radius: 12px;
-    cursor: pointer;
-    font-weight: bold;
-    padding: 10px 15px;
-    text-align: center;
-    transition: 200ms;
-    width: 100%;
-    border: 0;
-    font-size: 16px;
-}
+
+
