@@ -27,8 +27,14 @@
         height: 500px;
         background: #0000009c;
         box-shadow: 0 0 50px #077b4b;
+        animation: animateBg 5s linear infinite;
         border-radius: 20px;
         padding: 40px;
+    }
+    @keyframes animateBg{
+        100%{
+            filter: hue-rotate(360deg);
+        }
     }
     .eyuu{
         display: flex;
