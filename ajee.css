@@ -52,7 +52,7 @@ textarea:focus-within{
 }
 button{
     background-color: #5bd183;
-    border-radius: 10px;
+    border-radius: 11px;
     border-color: black;
     font-size: 22px;
     padding:10px 15px;
