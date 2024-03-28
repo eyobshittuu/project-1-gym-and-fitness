@@ -56,7 +56,7 @@ button{
     border-color: black;
     font-size: 22px;
     padding:10px 15px;
-    text-align: left;
+    text-align:center;
     display: flex;
     margin:auto;
 }
