@@ -91,21 +91,4 @@ input{
     width: 100%;
     border: 0;
     font-size: 16px;
-<<<<<<< HEAD
-}
-
-.eyu{
-    display:flex;
-    width: 100%;
-    min-height: 100vh;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-    justify-content: center;
-    align-items:center ;
-    background-image: -o-repeating-linear-gradient() url(OIP.jpg);
-
-=======
->>>>>>> 39d6abebe89b86741e70191972dfaca44ab7715d
 }
