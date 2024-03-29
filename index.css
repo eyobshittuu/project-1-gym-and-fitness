@@ -80,32 +80,3 @@ input{
     border: 0;
     padding: 18px 15px;
 }
-.sss{
-    background-color: #11e835;
-    border-radius: 12px;
-    cursor: pointer;
-    font-weight: bold;
-    padding: 10px 15px;
-    text-align: center;
-    transition: 200ms;
-    width: 100%;
-    border: 0;
-    font-size: 16px;
-<<<<<<< HEAD
-}
-
-.eyu{
-    display:flex;
-    width: 100%;
-    min-height: 100vh;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-    justify-content: center;
-    align-items:center ;
-    background-image: -o-repeating-linear-gradient() url(OIP.jpg);
-
-=======
->>>>>>> 39d6abebe89b86741e70191972dfaca44ab7715d
-}
