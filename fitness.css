@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:contain;
+    position: center;
+    overflow: hidden;
+    width:100%;
+    height: 100hv;
+}
+.vv{
+    border: 1px solid;
+    width: 70%;
+    height:150px;
+    background-image: url(opp.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    padding: 20px 50px;
+    font-size: 60px;
+    font-family: "montserrat";
+    color:whitesmoke;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.8s;
+}
+.vv:hover, .wv:hover, .xv:hover {
+    color: rgb(35, 238, 113);
+}
+.wv{
+    border: 1px solid;
+    width: 70%;
+    height:150px;
+    background-image: url(cs.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 50px;
+    font-size: 60px;
+    color: whitesmoke;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.8s;
+
+
+}
+.xv{
+    border: 1px solid;
+    width: 70%;
+    height: 150px;
+    background-image: url(css.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 50%;
+    padding: 20px 50px;
+    font-size: 60px;
+    color: whitesmoke;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.8s;
+
+}
