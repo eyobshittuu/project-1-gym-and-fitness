@@ -118,3 +118,12 @@ img{
         transform:translateX(0px);
     }
 }
+footer{
+    background-color: aqua;
+}
+header{
+    background-color: aquamarine;
+    background-position: center;
+    padding: 10px 16px;
+    text-align: center;
+}
