@@ -119,11 +119,18 @@ img{
     }
 }
 footer{
-    background-color: aqua;
-}
-header{
-    background-color: aquamarine;
-    background-position: center;
-    padding: 10px 16px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; 
+    color: #fff;
     text-align: center;
+    padding: 10px;
+}
+h1 header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    background-color: #666;
 }
