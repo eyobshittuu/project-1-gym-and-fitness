@@ -133,12 +133,19 @@ h1 header{
     font-size: 25px;
     font-weight: lighter;
     background-color: #666;
+<<<<<<< HEAD
     background-color: rgba(141, 151, 151, 0.836);
+=======
+    background-color: aqua;
+>>>>>>> d1cc05147c1b2a463a4d7e63f36b2621d5fe2714
 }
 header{
     background-color: aquamarine;
     background-position: center;
     padding: 10px 16px;
     text-align: center;
+<<<<<<< HEAD
 
+=======
+>>>>>>> d1cc05147c1b2a463a4d7e63f36b2621d5fe2714
 }
