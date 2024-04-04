@@ -119,7 +119,6 @@ img{
     }
 }
 footer{
-<<<<<<< HEAD
     position: fixed;
     left: 0;
     bottom: 0;
@@ -131,16 +130,15 @@ footer{
 }
 h1 header{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: lighter;
     background-color: #666;
-=======
-    background-color: aqua;
+    background-color: rgba(141, 151, 151, 0.836);
 }
 header{
     background-color: aquamarine;
     background-position: center;
     padding: 10px 16px;
     text-align: center;
->>>>>>> 77ba1cd506993bc69593466bcb4b2e585ecdef14
+
 }
