@@ -15,7 +15,7 @@ body{
     border: 1px solid;
     width: 70%;
     height:150px;
-    background-image: url(opp.jpg);
+    background-image: url(/image/opp.jpg);
     background-position: center;
     display: flex;
     justify-content: space-around;
@@ -38,7 +38,7 @@ body{
     border: 1px solid;
     width: 70%;
     height:150px;
-    background-image: url(cs.jpg);
+    background-image: url(/image/cs.jpg);
     background-position: center;
     display: flex;
     justify-content: space-around;
@@ -59,7 +59,7 @@ body{
     border: 1px solid;
     width: 70%;
     height: 150px;
-    background-image: url(th.jpg);
+    background-image: url(/image/th.jpg);
     background-position:center;
     display: flex;
     justify-content: space-around;
